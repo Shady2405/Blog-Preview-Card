@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 385px;
+    height: 530px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+p{
+    font-size: 16px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.image img{
+    width:335px ;
+    border-radius: 15px;
+}
+.none{
+    display: none;
+}
+.learning{
+    width: fit-content;
+    padding: 10px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+.learning p{
+    font-weight: 700;
+}
+h2{
+    font-weight: 800;
+    cursor: pointer;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+.grey{
+    color: hsl(0, 0%, 42%);
+}
+.greg{
+    display: flex;
+    align-items: center;
+}
+.greg img{
+    width: 30px;
+}
+.greg p{
+    padding-left: 10px;
+    font-weight: 700;
+}
+@media screen and (max-width:420px) {
+    .container{
+        width: 335px;
+    }
+    .image img{
+        width: 280px;
+    }
+}
